@@ -149,6 +149,12 @@
         .accordiondiv{
           background: #efefef;
         }
+        .video{
+              margin-top: 20px;
+        }
+        .slider{
+          background: black;
+        }
 
         amp-accordion section h4 {    background: #252525;
                                       padding: 10px 0 10px 10px;
@@ -202,15 +208,16 @@
       <li><a href="https://agentportal.westernunion.com/ap/loginap.do">Agent</a></li>
     </ul>
     </div>
-    
-    <amp-carousel width="370" height="212" layout="responsive" type="slides" autoplay
-      delay="2000">
-      <amp-img src="Slider01.jpg" width="370" height="212" layout="responsive"></amp-img>
-      <amp-img src="Slider02.jpg" width="370" height="212" layout="responsive"></amp-img>
-      <amp-img src="Slider03.jpg" width="370" height="212" layout="responsive"></amp-img>
-      <amp-img src="Slider04.jpg" width="370" height="212" layout="responsive"></amp-img>
-      <amp-img src="Slider05.jpg" width="370" height="212" layout="responsive"></amp-img>
-    </amp-carousel>
+    <div class="slider">
+        <amp-carousel width="370" height="212" layout="responsive" type="slides" autoplay
+          delay="5000">
+          <amp-img src="Slider01.jpg" width="370" height="212" layout="responsive"></amp-img>
+          <amp-img src="Slider02.jpg" width="370" height="212" layout="responsive"></amp-img>
+          <amp-img src="Slider03.jpg" width="370" height="212" layout="responsive"></amp-img>
+          <amp-img src="Slider04.jpg" width="370" height="212" layout="responsive"></amp-img>
+          <amp-img src="Slider05.jpg" width="370" height="212" layout="responsive"></amp-img>
+        </amp-carousel>
+    </div>
     <div  class="inr">
       <div>Current Locked-in exchange rate: <br/> 
         <span class="flag">
@@ -241,7 +248,7 @@
         <p>You'll get a confirmation by email with the tracking number (MTCN).</p>
         <a href="https://www.westernunion.com/us/en/send-money/start.html" target="_blank"><button class="startbutton">Send Money Now >></button></a>
     </div>
-    <div>
+    <div class="video">
         <amp-youtube width="375"
               height="270"
               layout=responsive
