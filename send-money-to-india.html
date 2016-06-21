@@ -204,7 +204,7 @@ amp-accordion section ul li a {
 .inr aside{ float: left;}
 
 
-@media(max-width:380px){
+@media only screen and (max-width:380px){
 	.headmenu li a { font-size:14px;}
 	.headmenu li:last-child {padding-right:0 }
 	.primaryBtn { margin: 15px 0 0 0; width:90%}
@@ -243,6 +243,9 @@ amp-accordion section ul li a {
       <li><a href="https://agentportal.westernunion.com/ap/loginap.do">Agent</a></li>
 	</nav>
 	</section>
+	
+	<div class="clearFix"></div>
+	
     <div class="slider">
         <amp-carousel width="420" height="212" layout="responsive" type="slides" autoplay
           delay="5000">
